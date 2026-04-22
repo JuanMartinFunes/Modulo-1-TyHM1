@@ -1,0 +1,146 @@
+\documentclass[lighthipster]{simplehipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+\title{CV Juan Martin Funes}
+\author{Juan Martin Funes}
+\date{\today}
+
+\pagestyle{empty}
+\begin{document}
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+\simpleheader{headercolour}{Juan Martin}{Funes}{Estudiante de Ingeniería Industrial}{white}
+
+%------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+
+\paracolbackgroundoptions
+
+\footnotesize
+{\setasidefontcolour
+\flushright
+\begin{center}
+    \roundpic{WhatsApp Image 2026-03-26 at 9.15.11 AM.jpeg}
+\end{center}
+
+
+
+\bigskip
+
+\bg{cvgreen}{white}{Sobre mí}\\[0.5em]
+Estudiante de Ingeniería Industrial con interés en la logística, la optimización de procesos y la gestión operativa. Me caracterizo por la responsabilidad, la disciplina y la capacidad de trabajar en equipo en entornos dinámicos. Busco desarrollarme profesionalmente y aplicar mis conocimientos en áreas relacionadas con la logística, la organización y la gestión empresarial..
+
+\bigskip
+
+\bg{cvgreen}{white}{Áreas de Especialización} \\[0.5em]
+• Gestion de Eventos \\
+• Resolución de problemas bajo presión \\
+• Atención al público y trabajo en barra\\
+• Conocimiento inicial del sector logístico (freight forwarding)
+
+\bigskip
+
+\bg{cvgreen}{white}{Intereses}\\[0.5em]
+• Logística y optimización de procesos \\
+• Entrenamiento físico y disciplina personal \\
+• Aprendizaje de herramientas técnicas \\
+• Cultura general y formación personal continua \\
+• Interes por el aprendizaje de idiomas
+
+\vspace{4em}
+
+
+
+\phantom{turn the page}
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\section*{Educación y Certificaciones}
+
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2024--Act.}{Ingeniería Industrial}{Estudiante - 5to Semestre}{Universidad Nacional de Cuyo}{Desempeño académico estable, combinado con una dedicación constante al entrenamiento físico, lo que ha fortalecido habilidades como la disciplina, la constancia y la organización del tiempo.}{} \\
+    \cvevent{Año}{First Certificate}{Certificado en Inglés}{Cambridge English}{Titulo que deja constancia de un nivel de comunicacion en ingles casi nativo.}{}
+\end{tabular}
+\vspace{3em}
+
+\begin{minipage}[t]{0.45\textwidth}
+\section*{Proyectos y Experiencia}
+\begin{tabular}{r p{0.8\textwidth} c}
+    \cvdegree{2023-Act}{Gestión de eventos}{Bodegas}{Trabajo por Convocatoria}{Armado y manejo de barras para eventos festivos/musicales.}{} \\
+    \cvdegree{2023}{Pasantías}{SFLogistics}{Mendoza, Argentina}{Apoyo informal en tareas básicas relacionadas con la logística y la organización operativa.}{}\\
+      \cvdegree{2024-Act}{Comercialización}{Espumantes}{Allamand-Castro}{Venta de productos de origen vitivinicola de alta calidad y producción familiar. }{}
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Habilidades}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{Excel} &  \barrule{0.6}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{Laborioso} & \barrule{0.55}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{Expresivo} & \barrule{0.5}{0.5em}{cvpurple} \\
+    
+\end{tabular}
+\end{minipage}
+
+\vspace{3em}
+
+\begin{minipage}[t]{0.35\textwidth}
+\section*{Idiomas}
+\begin{tabular}{l | ll}
+\textbf{Español} & Nativo & {\phantom{x}\footnotesize Lengua materna} \\
+\textbf{Inglés} & B2 & {\phantom{x}\footnotesize Certificado (2022)} \\
+\textbf{Portugues} & En curso & {\phantom{x}\footnotesize}
+\end{tabular}
+\bigskip
+\end{minipage}\hfill
+\begin{minipage}[t]{0.45\textwidth}
+\section*{Intereses Académicos}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
+    Ingeniería & Administración y gestión empresarial, Toma de decisiones y Mejora continua. \\
+    Ciencias Humanas & Filosofia y Antropologia . \\
+    Logistica & Cadena de suministro (supply chain) y Comercio internacional.
+\end{tabular}
+\bigskip
+\end{minipage}
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small Juan Martín Funes \icon{\faEnvelopeO}{cvgreen}{} Ciudad, Mendoza, Argentina \newline\icon{\faAt}{cvgreen}{} \protect\url{jmfunes2108@gmail.com}
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+\end{document}
